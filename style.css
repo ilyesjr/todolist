@@ -1,0 +1,131 @@
+header
+{
+  text-align: center;
+  background-color: orange;
+  padding: 30px;
+  margin: -20px;
+}
+
+@font-face
+{
+  font-family: 'pixeljam';
+  src: url('Font/pixeljam.otf');
+}
+
+*
+{
+  font-family: 'pixeljam',sans-serif;
+  color: black;
+}
+
+h1
+{
+  color: black;
+  background-color: red;
+  padding: 40px;
+  margin: -20px -30px -20px -20px;
+  text-decoration: underline;
+}
+
+h2
+{
+  text-align: center;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+h3
+{
+  text-decoration: underline;
+}
+
+body
+{
+  background-image: url(Images/giphy.gif);
+}
+
+section
+{
+  background: yellow;
+  margin: 200px;
+}
+
+footer
+{
+  margin: -200px 200px 200px 200px;
+}
+
+.done
+{
+  color: darkgreen;
+  font-weight: bold;
+}
+
+.undone
+{
+  color: red;
+  font-weight: bold;
+}
+
+/*Start of 1st week's part*/
+.Semaine1
+{
+  background-color: steelblue;
+  margin: 20px -10px -10px -10px;
+  padding: 20px;
+  align-content: center;
+  border-radius: 10px;
+}
+
+.Git ol li
+{
+  text-decoration: line-through;
+}
+
+.TerminalLinux ol li
+{
+  text-decoration: line-through;
+}
+
+.Markdown ol li
+{
+  text-decoration: line-through;
+}
+/*End of 1st week's part*/
+
+/*Start of 2nd week's part*/
+.Semaine2
+{
+  background-color: rebeccapurple;
+  margin: 20px -10px -10px -10px;
+  padding: 20px;
+  align-content: center;
+  border-radius: 10px;
+}
+
+.HTML ol li
+{
+  text-decoration: line-through;
+}
+
+.DivSyntaxe
+{
+  text-decoration: line-through;
+}
+
+.DivBox
+{
+  text-decoration: none;
+}
+/*End of 2nd week's part*/
+
+/*Start of the footer part*/
+.moji
+{
+  background-color: chartreuse;
+  text-align: center;
+  padding: 30px;
+  margin-bottom: -60px;
+  border-radius: 0px 0px 10px 10px;
+}
+/*End of the footer part*/
